@@ -1,16 +1,17 @@
 HashIDs Debug Repo
 ==================================================
 
-Test
+Usage
 --------------------------------------------------
 
-This test passes:
+1. Clone the repo
+2. See a failing test by running:
+
+    $ rails test
+
+3. See a passing test by running:
 
     $ SIGN_HASHIDS=yes rails test
-
-This test fails:
-
-    $ SIGN_HASHIDS=no rails test
 
 
 Files of interest
