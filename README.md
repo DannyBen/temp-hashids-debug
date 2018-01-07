@@ -5,13 +5,9 @@ Usage
 --------------------------------------------------
 
 1. Clone the repo
-2. See a failing test by running:
-
-    $ rails test
-
-3. See a passing test by running:
-
-    $ SIGN_HASHIDS=yes rails test
+2. Install dependencies by running `bundle`
+3. See a failing test by running `rails test`
+4. See a passing test by running `SIGN_HASHIDS=yes rails test`
 
 
 Files of interest
