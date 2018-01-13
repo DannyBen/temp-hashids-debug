@@ -11,5 +11,7 @@ class UserTest < ActiveSupport::TestCase
     assert_equal 'One', @user.name
   end
 
-
+  test "#hashid should be 8 characters long" do
+    assert_equal 8, @user.hashid.size
+  end
 end

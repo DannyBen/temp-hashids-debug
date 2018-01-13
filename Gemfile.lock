@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/jcypret/hashid-rails.git
+  revision: 49ddda44493b8e4fb553a2467c38761eef83ae70
+  branch: unsigned-rails-fixtures
+  specs:
+    hashid-rails (1.2.0)
+      activerecord (>= 4.0)
+      hashids (~> 1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -48,9 +57,6 @@ GEM
     ffi (1.9.18)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    hashid-rails (1.2.0)
-      activerecord (>= 4.0)
-      hashids (~> 1.0)
     hashids (1.0.4)
     i18n (0.9.1)
       concurrent-ruby (~> 1.0)
@@ -132,7 +138,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  hashid-rails
+  hashid-rails!
   puma (~> 3.7)
   rails (~> 5.1.4)
   sass-rails (~> 5.0)

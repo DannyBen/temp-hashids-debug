@@ -13,5 +13,5 @@ end
 group :development do
 end
 
-gem 'hashid-rails'
-
+# gem 'hashid-rails'
+gem 'hashid-rails', github: "jcypret/hashid-rails", branch: "unsigned-rails-fixtures"
